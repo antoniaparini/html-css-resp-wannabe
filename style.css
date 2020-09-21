@@ -80,13 +80,11 @@ img {
   box-sizing: border-box;
 }
 
-body{
-  width:420px;
-}
+
 /*UTILITIES*/
 .row h1 {
   font-size: 22px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 .row h3{
@@ -94,16 +92,18 @@ body{
 }
 .row {
     width: 600px;
+    width: 100%
     margin: 0 auto;
     margin-top: 100px;
 }
 
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 420px) {
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 33%;
+    width: 100%;
     float: none;
+
   }
   #lezioni .row img {
     /* per centrare orizzontalmente */
@@ -115,12 +115,12 @@ body{
   }
   }
 
-@media screen and (min-width:420px) {
+@media screen and (max-width:420px) {
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
       float: none;
-      width: 33%;
+      width: 100%;
     }
     #steps .row img {
       /* per centrare orizzontalmente */
@@ -133,12 +133,12 @@ body{
   }
 
 
-@media screen and (min-width:420px){
+@media screen and (max-width:420px){
     #why .row>.first,
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-      width: 33%;
+      width: 100%;
       margin-top: 80px;
     }
   }
