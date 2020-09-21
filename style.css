@@ -96,7 +96,7 @@ img {
     margin-right: auto;
     margin-top: 100px;
 }
-
+/**AREA SMARTPHONE**/
 /*MEDIA SCREEN  AREA LEZIONI*/
 @media screen and (max-width: 420px) {
   #lezioni .row>.left,
@@ -135,6 +135,62 @@ img {
 
 /*MEDIA SCREEN  AREA WHY*/
 @media screen and (max-width:420px){
+    #why .row>.first,
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 100%;
+      margin-top: 80px;
+    }
+  }
+
+#why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+    max-width:200px;
+    max-height:100px;
+  }
+
+/**AREA TABLET**/
+/*MEDIA SCREEN  AREA LEZIONI*/
+@media screen and (max-width: 768px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+
+  }
+  #lezioni .row img {
+    /* per centrare orizzontalmente */
+    max-width:200px;
+    max-height:100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  }
+
+/*MEDIA SCREEN  AREA STEPS*/
+@media screen and (max-width:768px) {
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+    }
+    #steps .row img {
+      /* per centrare orizzontalmente */
+      max-width:200px;
+      max-height:100px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+    }
+  }
+
+/*MEDIA SCREEN  AREA WHY*/
+@media screen and (max-width:768px){
     #why .row>.first,
     #why .row>.first,
     #why .row>.second,
