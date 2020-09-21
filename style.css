@@ -97,7 +97,7 @@ img {
     margin-top: 100px;
 }
 
-
+/*MEDIA SCREEN  AREA LEZIONI*/
 @media screen and (max-width: 420px) {
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -115,6 +115,7 @@ img {
   }
   }
 
+/*MEDIA SCREEN  AREA STEPS*/
 @media screen and (max-width:420px) {
     #steps .row>.left,
     #steps .row>.central,
@@ -132,7 +133,7 @@ img {
     }
   }
 
-
+/*MEDIA SCREEN  AREA WHY*/
 @media screen and (max-width:420px){
     #why .row>.first,
     #why .row>.first,
